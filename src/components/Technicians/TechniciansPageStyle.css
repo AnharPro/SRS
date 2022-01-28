@@ -1,0 +1,271 @@
+.TechniciansPage{
+    margin-left:15px;
+    margin-right: 10px;
+    margin-top: -50px;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 800px;
+    z-index: 5;
+    position: relative;
+    background-color: #FFFFFF;
+    font-size: 14px !important;
+}
+
+.mybreadCrumb{
+    font-size: 14px;
+    color: #9c9a9a;
+  }
+  
+.mybreadCrumbs{
+    font-size: 14px;
+    color: #9c9a9a;
+  }
+  
+.mybreadCrumblink:hover{
+    color: #5252f8;
+    text-decoration: none;
+  }
+
+  .TechniciansCont {
+    float: left;
+    width: 90%;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    height: auto;
+    background-color: #ffffff;
+    margin: 5px;
+    border: 0.5px solid #aaa;
+    border-radius: 5px;
+    padding-bottom: 10px;
+  }
+
+  .TechsNumberOfusers{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .Techniciansgrid{
+    margin: 50px 1% 0px 1%;
+    width: 98%;
+    min-height: 200px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+}
+
+.Techniciansgridheader{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(197, 197, 197);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px;
+  }
+
+.TechniciansCols{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 21.5%;
+    float: left;
+    min-height: 100%;
+    vertical-align: middle;
+}
+
+.TechniciansSelCols{
+    min-height: 45px;
+    width: 21.5%;
+    vertical-align: middle;
+    overflow: visible;
+}
+
+.TechniciansSCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 14%;
+    float: left;
+    min-height: 100%;
+    vertical-align: middle;
+}
+
+.TechniciansgridRow{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top: 1.5px solid rgb(180, 180, 180);
+    margin: 0px;
+    overflow: visible;
+}
+
+.border_left{
+    border-left: 1.5px solid rgb(180, 180, 180)
+}
+
+.border_right{
+    border-right: 1.5px solid rgb(180, 180, 180)
+}
+
+.SepDiv{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 1.5px;
+    border-left: 1.5px solid rgb(180, 180, 180)
+}
+
+.padd5{
+    padding: 5px;
+}
+
+.srchselect{
+  margin-top: 5px;
+}
+
+.TechsToastCls{
+  width:550px !important;
+  position: fixed;
+  margin-left: -200px !important;
+  margin-top: 50px;
+  border-radius: 5px;
+  z-index: 999999999999999999999999999999999999999999999999 !important;
+}
+
+.TechsToastCont{
+  width: 100% !important;
+  margin-left: -100px !important;
+  border-radius: 5px !important;
+  height: 70px !important;
+  color: #ffffff;
+  font-size: 18px;
+  z-index: 999999999999999999999999999999999999999999999999 !important;
+}
+
+.TechsToastProgCont{
+  width: 100% !important;
+  border-radius: 5px;
+  height: 70px;
+  color: #ffffff;
+  font-size: 18px;
+  z-index: 999999999999999999999999999999999999999999999999 !important;
+}
+
+@media screen and (max-width: 950px){
+  .Techniciansgridheader{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .TechniciansgridRow{
+    flex-direction: column;
+  }
+
+  .TechniciansCols,
+  .TechniciansSelCols,
+  .TechniciansSCol{
+    width: 100%;
+    border: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Switch*/
+  .switch {
+    position: relative;
+    width: 85px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    transition: background-color 100ms ease-out;
+    z-index: 1;
+  }
+  switch:before,
+  switch:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: inherit;
+    border-radius: 5%;
+    width: 5rem;
+    height: 5rem;
+    z-index: 2;
+  }
+  switch:before {
+    left: -1rem;
+  }
+  switch:after {
+    right: -1rem;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    width: 43px;
+    height: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 2px;
+    transition: transform 100ms ease-in-out;
+    z-index: 3;
+    border: none;
+    top: -0.05rem;
+  }
+  
+  .marg {
+    margin-top: 10px !important;
+    margin-left: 10px;
+  }
+  
+  .switch_is-off {
+    background-color: #fcfcfc;
+  }
+  
+  .switch_is-on {
+    background-color: #fcfcfc;
+  }
+  
+  .toggle-button_position-left {
+    transform: translateX(0px);
+    background-color: rgb(4, 165, 71);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .toggle-button_position-right {
+    transform: translateX(40px);
+    background-color: rgb(216, 6, 6);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .TechTooltip{
+    max-width: 600px;
+  }

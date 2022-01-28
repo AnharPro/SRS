@@ -1,0 +1,2140 @@
+.WorkListPage {
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: -50px;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 400px;
+  z-index: 5;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.WLbreadCrumb {
+  font-size: 14px;
+  color: #9c9a9a;
+}
+
+.WLbreadCrumblink:hover {
+  color: #5252f8;
+  text-decoration: none;
+}
+
+.WLhomewSidebar {
+  float: left;
+  width: 79%;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 0.5px solid #aaa;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+.WLhomewoSidebar {
+  float: left;
+  width: 98%;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 0.5px solid #aaa;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+@media screen and (max-width: 1050px) {
+  .WLhomewSidebar {
+    width: 100%;
+    margin-left: 0px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+.WorkListTableCont {
+  width: 100%;
+  min-height: 50px;
+}
+
+.WLtable-head {
+  position: relative;
+  margin: 25px 0px 25px 0px;
+  height: 40px;
+  background-color: #f6f6f6;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 20px;
+  padding-top: 12px;
+  color: #999999;
+}
+
+.WLtable-headForm {
+  float: left;
+}
+
+.MoveStatusCheckbox {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 17px;
+  height: 17px;
+}
+
+.MoveStatusButton {
+  min-width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 550;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.WLtable-headCount {
+  float: right;
+}
+
+.WorkListGrid {
+  min-height: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.WorkListGridRow {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.WorkListGridRow:nth-child(odd) {
+  background-color: #e2e2e2;
+}
+
+.WorkListGridRow:hover {
+  background-color: #cacaca;
+}
+
+.WorkListGridRow > span {
+  padding: 0 5px;
+}
+
+.NormalRow {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  cursor: pointer;
+  width: 5px;
+  border-left: 5px solid#00f7ff;
+  z-index: 99;
+}
+
+.HeldRow {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  cursor: pointer;
+  border-left: 5px solid #ec8600;
+  z-index: 99;
+}
+
+.WLrow1cont {
+  height: 65px;
+}
+
+.WLcol1 {
+  height: 65px;
+  width: 22%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  vertical-align: middle;
+  /*background-color: aqua;*/
+}
+
+.WLgridrow1 {
+  font-size: 14px;
+  height: 20px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 15px;
+}
+
+.WLuserid {
+  text-decoration: underline;
+  font-weight: 400;
+  color: #007bff;
+}
+
+.WLIsPreg {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-image: url("../../Images/isPreg.gif");
+}
+
+.WLIsChronic {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background-image: url("../../Images/Chronic.gif");
+}
+
+.WLlinkks {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.WLcol2 {
+  width: 15%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  vertical-align: middle;
+  /*background-color: rgb(4, 221, 221);*/
+}
+
+.WLgridrow2 {
+  text-align: center;
+  margin: auto;
+  padding: 10% 0;
+  color: #4298e4;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.WLgridrow5 {
+  text-align: center;
+  margin: auto;
+  padding: 10% 0;
+  color: #4298e4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.WLstatuss {
+  text-align: center;
+}
+
+.WLcol3 {
+  width: 18%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  vertical-align: middle;
+  /*background-color: rgb(3, 141, 141);*/
+}
+
+.WLgridrow3 {
+  text-align: center;
+  padding: 10% 0;
+  color: #ffffff;
+}
+
+.WLcol4 {
+  width: 15%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  vertical-align: middle;
+
+  /*background-color: rgb(2, 117, 117);*/
+}
+
+.WLalignright {
+  position: relative;
+  float: right !important;
+  clear: both;
+}
+
+.WLcol5 {
+  margin-top: 7px;
+  width: 19%;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  float: none;
+  /*background-color: rgb(1, 73, 73);*/
+}
+
+.WLgridrow4 {
+  position: relative;
+  text-align: left;
+  margin: auto;
+  padding: 0px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.WLgridrow4-2 {
+  position: relative;
+  text-align: left;
+  margin: auto;
+  padding: 0px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.MoveStatusChkCont {
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 3%;
+  margin: 0px 0px 0px 10px;
+}
+
+.MoveStatusGridCheckbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .WorkListGridRow {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+    padding-bottom: 15px;
+  }
+
+  .WLcol1,
+  .WLcol2,
+  .WLcol3,
+  .WLcol5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .WLcol4 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    min-height: 50px;
+    margin: auto;
+  }
+
+  .WLgridrow3,
+  .WLgridrow2,
+  .WLgridrow5 {
+    padding: 5px 0px;
+    height: auto;
+  }
+
+  .WLgridrow1,
+  .WLgridrow4,
+  .WLgridrow4-2 {
+    text-align: center;
+    height: auto;
+  }
+
+  .MoveStatusChkCont {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 0px;
+    flex-direction: row;
+  }
+}
+
+.PaginationCont {
+  position: relative;
+  margin-bottom: 15px;
+  min-height: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-around;
+  justify-content: center;
+  font-size: 14px !important;
+}
+
+.PageSizeCompStyle {
+  margin-top: 20px !important;
+  margin-left: 30px !important;
+  height: 35px !important;
+  width: 40px;
+}
+
+.PageSizeHeaderStyle {
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.PageSizeDropDnStyle {
+  width: 50px;
+  background-color: #ffffff;
+  margin-left: -10px !important;
+}
+
+.PageSizeElStyle {
+  padding: 5px;
+  height: 25px;
+}
+
+.PageSizeElStyle:hover {
+  background-color: #e0e0e0;
+}
+
+.StatClass {
+  margin: auto;
+  color: #ffffff;
+  width: 130px;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.RequestedSt {
+  background-color: #5252f8;
+}
+
+.ReportedSt {
+  background-color: rgb(0, 148, 0);
+}
+
+.PreliminaryResultedSt {
+  background-color: rgb(198, 167, 255);
+}
+
+.InProcessSt {
+  background-color: rgb(198, 167, 255);
+}
+
+.PendingSt {
+  background-color: rgb(255, 166, 0);
+}
+
+.Multi-StatusSt {
+  background-color: rgb(245, 229, 4);
+}
+
+.CanceledSt {
+  background-color: rgb(255, 0, 0);
+}
+
+.TestsGridChkBoxes {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  font-weight: 550;
+  color: #000000;
+  padding-right: 5px;
+  width: 25%;
+  float: left;
+}
+
+.ChkBoxShortName {
+  position: relative;
+  margin-top: 4px !important;
+  display: inline-block;
+}
+
+.TestGridChkBoxes {
+  cursor: pointer;
+}
+
+.ChkBoxesCont {
+  width: 100%;
+  height: 18px;
+}
+
+/*View Details*/
+
+.ViewDetailsModal {
+  min-width: 90vw !important;
+  width: 90vw !important;
+  height: 90vh;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative !important;
+}
+
+.ViewDetailsClosebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.ViewDetailsHearders {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  background-color: transparent;
+  border-bottom: 1.5px solid #b9b9b9;
+  padding: 0px;
+  margin: 0px;
+  min-height: 45px;
+}
+
+.ViewDetailsHeardersItems {
+  position: relative;
+  top: 0px;
+  height: 100%;
+  padding: 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  overflow: visible;
+}
+
+.ib {
+  display: inline-block;
+}
+
+.fontimportant {
+  font-weight: 650;
+}
+
+.ViewDetailsHearderslabels {
+  position: relative;
+  font-weight: 550;
+  font-size: 14px;
+  color: #747272;
+}
+
+.diagCode {
+  font-weight: 650;
+  text-decoration: underline;
+  margin-right: 10px;
+  position: relative !important;
+}
+
+.separators{
+  padding-top: 10px;
+}
+
+.Di{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+  width: 500;
+}
+
+.diag1{
+  overflow: visible;
+  position: relative !important;
+  display: block;
+  flex-direction: column;
+  height: 20px;
+  padding-left: 2px;
+}
+
+.tooltipcont{
+  position: absolute;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  max-width: 500px;
+  top: 30px;
+  padding: 5px;
+  z-index: 999999999999999999999999;
+  font-size: 12px;
+  min-width: 250px !important;
+}
+
+.tooltipcont:before{
+  content:'';
+  display:block;
+  width:0;
+  height:0;
+  position:absolute;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-bottom:8px solid black;
+  left:7px;
+  top:-7px;
+}
+
+.DiagTooltip {
+  max-width: 250px;
+  opacity: 2 !important;
+  z-index: 999999999999999999999999999999999999999 !important;
+}
+
+.DetailsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin: 20px 1% 0px 1%;
+  min-height: 50px;
+  border: 3px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.DetailsContainerHeader {
+  width: 100%;
+  min-height: 15px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-bottom: 1.5px solid #e6e6e6;
+  overflow: visible;
+}
+
+.SpecimenCollectionBtn {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pad {
+  padding: 10px 8px 3px 8px;
+}
+
+.borderHider {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -2px;
+  z-index: 99;
+  background-color: #ffffff;
+}
+
+.HeadBorder {
+  border: 1.5px solid #e6e6e6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  color: blue;
+}
+
+/*Requested*/
+
+.SpecimenFormTotContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 0px;
+}
+
+.SpecimenFormContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 35px;
+}
+
+.SpecimenForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 35px;
+}
+
+.SpecimenRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.SpecimenRowCol1 {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  font-weight: 650;
+  font-size: 15px !important;
+  padding: 0px 2px;
+}
+
+.SpecimenRowCol2 {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  padding: 0px 2px;
+  font-size: 15px !important;
+}
+
+.SpecimenSelect {
+  width: 100%;
+}
+
+.SpecimenTextArea {
+  width: 100%;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.bld {
+  font-weight: 600;
+}
+
+.SpecimenRowCol3 {
+  display: flex;
+  flex-direction: row;
+  width: 34%;
+  padding: 0px 2px;
+  font-size: 15px !important;
+}
+
+.SpecimenRowCol4 {
+  display: flex;
+  flex-direction: row;
+  width: 67%;
+  font-size: 15px !important;
+}
+
+.SpecimenRow1Col1 {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  min-height: 35px;
+  font-weight: 650;
+  font-size: 15px;
+}
+
+.SpecimenRow1Col2 {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  min-height: 35px;
+}
+
+.PermissionBtns {
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.AddUpdate {
+  background-color: #4f6dc0;
+  margin-right: 10px;
+}
+
+.AddMove {
+  background-color: rgb(0, 148, 0);
+}
+
+.EditIc {
+  width: 16px;
+  height: 16px;
+  background-image: url("../../Images/EditIcon.png");
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.DeleteIc {
+  width: 12px;
+  height: 16px;
+  background-image: url("../../Images/DeleteIcon.png");
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.PrintIcS {
+  width: 16px;
+  height: 16px;
+  background-image: url("../../Images/PrintIconS.png");
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.registeredTextInputs {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  height: 35px;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.registeredTextInputs:disabled {
+  background-color: #ffffff;
+}
+
+.registeredRegisterButton {
+  margin-top: 30px;
+  width: 55%;
+  border: none;
+  height: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #13b4a7;
+}
+
+.registeredRegisterButton:focus {
+  outline: none;
+}
+
+.requestedHeader {
+  height: 60px;
+  background-color: #e2e2e2;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
+
+.ViewDetsCont {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e2e2e2;
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+/*Registered*/
+
+.RegisteredPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50px;
+  padding: 5px;
+}
+
+.RegisteredCont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  margin: 5px 0px;
+  border-radius: 5px;
+  min-height: 30px;
+}
+
+.RegisteredContHeader {
+  height: 35px;
+  background-color: #d0d5e4;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+  border-bottom: 1px solid #b8b8b8;
+  margin-bottom: 5px;
+  font-size: 16px !important;
+}
+
+.Mand {
+  color: red;
+}
+
+.RegisteredContRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px;
+}
+
+.zind1 {
+  z-index: 999999999999;
+}
+
+.RegisteredContRowCol1 {
+  font-weight: 600;
+  display: flex;
+  width: 37.5%;
+  margin: 0px 5px 0px 5px;
+  font-size: 14px !important;
+}
+
+.RegisteredContRowCol2 {
+  font-weight: 600;
+  display: flex;
+  width: 37.5%;
+  margin: 0px 5px 0px 5px;
+  font-size: 14px !important;
+}
+
+.RegisteredContRowCol3 {
+  font-weight: 600;
+  display: flex;
+  width: 25%;
+  margin: 0px 5px 0px 5px;
+  font-size: 14px !important;
+}
+
+.RegisteredContRowCol4 {
+  font-weight: 600;
+  display: flex;
+  width: 75%;
+  margin: 5px 0px 0px 5px;
+  font-size: 14px !important;
+}
+
+.RegisteredContRowCol5 {
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+  margin: 5px;
+  font-size: 14px !important;
+}
+
+.AddFilmBtn {
+  border: none;
+  width: 85%;
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #0068df;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px !important;
+}
+
+.RegisteredTable {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+  margin: 10px 5px;
+  z-index: 999;
+  font-size: 14px !important;
+}
+
+.RegisteredTableHeader {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  border-bottom: 1px solid #c5c5c5;
+  font-weight: 600;
+  background-color: #d8d8d8;
+}
+
+.RegisteredTable1Col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 5px;
+}
+
+.RegisteredTable1Col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+  padding: 5px;
+}
+
+.RegisteredTable1Col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 5px;
+}
+
+.RegisteredTable1Col4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+  padding: 5px;
+}
+
+.RegisteredTable1Col5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10%;
+  padding: 5px;
+  border-left: 1px solid #c5c5c5;
+}
+
+.RegisteredTable2Col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  padding: 5px;
+}
+
+.RegisteredTable2Col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  padding: 5px;
+}
+
+.registeredExamineButton {
+  margin: 20px 0px 5px 4px;
+  width: 55%;
+  border: none;
+  height: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0077d8;
+}
+
+.registeredExamineButton:focus {
+  outline: none;
+}
+
+.registeredApproveButton {
+  margin: 20px 0px 5px 4px;
+  width: 55%;
+  border: none;
+  height: 40px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #4fd800;
+}
+
+.registeredApproveButton:focus {
+  outline: none;
+}
+
+.RISVDDeleteIcon {
+  width: 15px;
+  height: 15px;
+  background-image: url("../../Images/RISVDDeleteIcon.png");
+  margin: auto;
+}
+
+.borBtm {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+/*Examined*/
+
+.ExaminedContRowCol1 {
+  font-weight: 600;
+  display: flex;
+  width: 50%;
+  margin: 0px 5px 0px 5px;
+  font-size: 15px !important;
+}
+
+.ExaminedContRowCol2 {
+  font-weight: 600;
+  display: flex;
+  width: 50%;
+  margin: 0px 5px 0px 5px;
+  font-size: 15px !important;
+}
+
+.ExaminedContRowCol3 {
+  font-weight: 600;
+  display: flex;
+  min-width: 2%;
+  margin: 0px 5px 0px 5px;
+  font-size: 15px !important;
+}
+
+.ExaminedContRowCol4 {
+  font-weight: 600;
+  display: flex;
+  min-width: 2%;
+  margin: 0px 5px 0px 5px;
+  font-size: 15px !important;
+}
+
+.ExaminedContRowCol5 {
+  font-weight: 600;
+  display: flex;
+  width: 80%;
+  margin: 0px 5px 0px 5px;
+  font-size: 15px !important;
+}
+
+.RTEBtns {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 550;
+  margin-top: 10px;
+  height: 35px;
+  padding: 0px 15px;
+  cursor: pointer;
+  font-size: 14px !important;
+}
+
+.CancelBtn {
+  background-color: red;
+}
+
+.UpdateBtn {
+  background-color: blue;
+}
+
+.createtemprtlstyle {
+  width: 99%;
+  height: 420px;
+  overflow-y: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.TestsPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.TestsHeaderBtnsContainer {
+  width: 100%;
+  min-height: 45px;
+  background-color: #d2d2d2;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.TestsHeaderBtns {
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 4px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0px 10px;
+  min-width: 100px;
+}
+
+.MoveToNextBtn {
+  background-color: #03d4b1;
+}
+
+.ResendBtn {
+  background-color: #0068df;
+}
+
+.RejectBtn {
+  background-color: red;
+}
+
+.TestsDataContainer {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-height: 50px;
+}
+
+.TestGroupsontainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 35px;
+  width: 25%;
+}
+
+.TestGroups {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 550;
+  min-height: 35px;
+  border-radius: 5px;
+  padding: 7px 0px 0px 5px;
+  margin: 3px 0px;
+}
+
+.TestGroups:hover {
+  background-color: rgb(1, 1, 192);
+  color: #ffffff;
+}
+
+.activeTestGrp {
+  background-color: rgb(1, 1, 192) !important;
+  color: #ffffff;
+}
+
+.TestGroupsCheckBox {
+  width: 15px;
+  height: 15px;
+}
+
+.TestsGridContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 35px;
+  width: 75%;
+}
+
+.TestsTable {
+  width: 99%;
+  margin: 3px 0.5%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TestTableHeader {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25px;
+  background-color: #e2e2e2;
+}
+
+.TestsTableRow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25px;
+  border-left: 3px solid transparent;
+}
+
+.RowEmergengy {
+  border-left: 3px solid red;
+}
+
+.RowHeld {
+  border-left: 3px solid rgb(255, 153, 0);
+}
+
+.TestTableCol1 {
+  display: inline-flex;
+  flex-direction: row;
+  width: 5%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.TestTableCol2 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.TestTableCol3 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.TestTableCol4 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 20%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.TestTableCol5 {
+  display: inline-flex;
+  flex-direction: row;
+  width: 15%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.TestTableCol6 {
+  display: inline-flex;
+  width: 10%;
+}
+
+.TestTableCol7 {
+  display: inline-flex;
+  width: 10%;
+}
+
+.TestInformationIcon {
+  width: 22px;
+  height: 22px;
+  background-image: url("../../Images/InformationIcon.png");
+  cursor: pointer;
+}
+
+.TestEditIcon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../Images/TestEditIcon.png");
+  cursor: pointer;
+}
+
+.TestOutOfRangeIcon {
+  width: 7px;
+  height: 7px;
+  background-image: url("../../Images/OutOfRangeIcon.png");
+  cursor: pointer;
+}
+
+.PopUpContainer {
+  position: fixed;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+  height: 50vh;
+  top: 50vh;
+  margin-top: -25vh;
+  background-color: #ffffff;
+  z-index: 9999;
+  border-radius: 5px;
+  overflow: auto;
+  border: 2px solid blue;
+}
+
+.PopUpContainerIns {
+  position: fixed;
+  width: 60%;
+  left: 40%;
+  margin-left: -20%;
+  height: 50vh;
+  top: 50vh;
+  margin-top: -25vh;
+  background-color: #ffffff;
+  z-index: 9999;
+  border-radius: 5px;
+  overflow: auto;
+  border: 2px solid rgb(185, 185, 185);
+}
+
+.PopUpDataContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.PopUpTitle {
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  padding: 10px 3%;
+}
+
+.PopupTable {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  min-height: 25px;
+  border: 1px solid #bdbdbd;
+  margin: 10px 3%;
+  border-radius: 3px;
+}
+
+.PopupResendTableHeader {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.PopupResendTableRow {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.PopupResendTableCol1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: center;
+  padding-left: 3px;
+}
+
+.PopupResendTableCol2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.PopupResendTableCol3 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  font-size: 15px;
+  font-weight: 550;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.PopupResendTableCol4 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.ResendButton {
+  height: 25px;
+  width: 80%;
+  margin: 2px 10%;
+  border: none;
+  background-color: #00c0f0;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+
+.ResendButton:disabled {
+  border: 2px solid #0068df;
+  color: #000000;
+}
+
+.PopupRejectTableHeader {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.PopupRejectTableRow {
+  display: flex;
+  flex-direction: row;
+  min-height: 30px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.PopupRejectTableCol1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-height: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  padding-left: 3px;
+}
+
+.PopupRejectTableCol2 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.PopupRejectTableCol3 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: 14px;
+  font-weight: 550;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.PopupRejectTableCol4 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.RejectReasonInput {
+  width: 98%;
+  margin: 2px 1%;
+  border-radius: 5px;
+  height: 25px;
+  padding-left: 5px;
+  border: 1px solid black;
+}
+
+.Testslegend {
+  display: flex;
+  width: 100%;
+  min-height: 35px;
+  justify-content: center;
+}
+
+.OFRLegend {
+  display: flex;
+  color: red;
+  margin-right: 10px;
+}
+
+.OFRLD {
+  margin-top: 5px !important;
+  margin-right: 5px !important;
+}
+.EmergencyLegend {
+  border-left: 3px solid red;
+  padding-left: 5px;
+  height: 20px;
+  margin-right: 10px;
+}
+.HeldLegend {
+  border-left: 3px solid rgb(255, 153, 0);
+  padding-left: 5px;
+  height: 20px;
+}
+
+.InstPopUpTableRow1 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.InstPopUpTableRow2 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.InstPopUpTableRow3 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.InstPopUpTableRow4 {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.InstPopUpTableRow4P {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+  color: #0068df;
+  text-decoration: underline;
+}
+
+.InstructionsGridRows {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #d2d2d2;
+  min-height: 30px;
+  justify-content: center;
+}
+
+/*Results*/
+
+.PrintGrpBtn {
+  background-color: #b900aa;
+}
+
+.PrintBtn {
+  background-color: #5ea9fd;
+}
+
+.SaveBtn {
+  background-color: #0054b4;
+}
+
+.ResultsTableRow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 25px;
+  border-left: 3px solid transparent;
+}
+
+.ResultTableCol1 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 4%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.ResultTableCol2 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 18%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.ResultTableCol3 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 32%;
+  min-height: 2px;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.ResultTableCol3RowCont {
+  display: inline-flex;
+  flex-direction: column;
+  width: 32%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.ResultTableCol3Row {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.SingleResultLink {
+  color: #00c0f0;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: start !important;
+  justify-content: flex-start;
+  padding-left: 3%;
+}
+
+.ResultTableCol4 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 10%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.ResultTableCol5 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 13%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.ResultTableCol6 {
+  display: inline-flex;
+  flex-direction: column;
+  width: 10%;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
+}
+
+.ResultTableCol7 {
+  display: inline-flex;
+  flex-direction: row;
+  padding-top: 5px;
+  width: 13%;
+  text-align: start;
+  justify-content: flex-start;
+  font-size: 13px;
+}
+
+.ResultsGridTextBox {
+  width: 33%;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 550;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-top: 2px;
+  margin-left: 2%;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+.ResultsGridSelect {
+  width: 33%;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.TestOutOfRangeIconR {
+  width: 7px;
+  height: 7px;
+  background-image: url("../../Images/OutOfRangeIcon.png");
+  cursor: pointer;
+  margin: auto;
+}
+
+.ResultsInput {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(212, 212, 212);
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.ResPopUpContainer {
+  position: fixed;
+  width: 75%;
+  left: 22.5%;
+  margin-left: -12.5%;
+  height: 70vh;
+  top: 30vh;
+  margin-top: -12.5vh;
+  background-color: #ffffff;
+  z-index: 9999;
+  border-radius: 5px;
+  overflow: auto;
+  border: 2px solid blue;
+}
+
+.ResPopUpContentContainer {
+  width: 94%;
+  min-height: 20%;
+  margin: 3%;
+}
+
+.ResPopupHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 35px;
+}
+
+.TitleCont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-height: 35px;
+  font-size: 17px;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.ButtonCont {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 50%;
+  min-height: 35px;
+}
+
+.ResultPopUpSaveBtns {
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0px 10px;
+  width: 90px;
+  height: 40px;
+  float: right;
+}
+
+.ResPopUpTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  margin-top: 25px;
+  font-weight: 550;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
+.ResPopUpTableHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-height: 35px;
+  border-bottom: 1px solid #cecece;
+}
+
+.ResultsPopUpTableRow {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 25px;
+  border-bottom: 1px solid #cecece;
+}
+
+.ResPopUpTableRow1 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.ResPopUpTableRow2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.ResPopUpTableRow2Row {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+  padding-top: 8px;
+}
+
+.ResPopUpTableRow3 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.ResPopUpTableRow4 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.ResPopUpTableRow5 {
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 35px;
+}
+
+.MyToastContainer {
+  width: 900px;
+  white-space: normal;
+  font-language-override: unset;
+}
+
+.ToastCont {
+  width: 900px;
+  height: 70px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center !important;
+}
+
+.DeleteAlertClass {
+  position: absolute;
+  font-size: 24px;
+  font-weight: 550;
+  z-index: 9999999999999999999999999999999999999999999999999999999999999;
+}
+
+.CancelAlertBtn {
+  background-color: rgb(255, 0, 0) !important;
+  border: none;
+  font-size: 20px;
+  font-weight: 550;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.ConfirmAlertBtn {
+  background-color: blue !important;
+  border: none;
+  font-size: 20px;
+  font-weight: 550;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.HomePage{
+  color: #007bff;
+  cursor: pointer;
+}
+
+.DiagCont{
+  display: flex;
+  flex-direction: row;
+}
+
+.AddSpace{
+  margin-top: 10px;
+}
+
+
+/*DropBox*/
+
+.DropBoxContainer{
+  min-height:200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 98%;
+  margin: auto;
+}
+
+
+.DropBox{
+  display: flex;
+  flex-direction: column;
+  min-height: 200;
+}
+
+.AlertMsg{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: red;
+  opacity: 0.5;
+  font-size: 36px;
+}
+
+.FileLineContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 35px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.FileLineLeftEl{
+  padding-left: 5px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.FileLineRightEl{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  width: 5%;
+  cursor: pointer;
+  height: 30px;
+}
+
+.DDComp{
+  margin-top: 15px;
+}
+
+.AttachmentsHeader{
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 1% 10px 1%;
+  position: relative;
+}
+
+.AttachmentTitle{
+  display: flex;
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.SizeContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.MaxSize{
+  display: flex;
+  margin: 0px 25px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fileNameInput{
+  width: 95%;
+  border: none;
+  height: 30px;
+}
+
+.fileNameInput:disabled{
+  background-color: transparent;
+}
+
+.fileNameInput:enabled{
+  border: 2px solid #0054b4;
+  border-radius: 5px;
+}
+
+.InputCont{
+  position: relative;
+  width: 100%;
+}
+
+.DoneBtn{
+  position: absolute;
+  right: 6%;
+  top: 5px;
+}
+
+.EditImage{
+  height: 25px;
+  width: 25px;
+  background-image: url('../../Images/eye.png');
+}
+
+.PreviewImageModal{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.PreviewImageImagesListCont{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  border: 1px solid #e2e2e2;
+  min-height: 50px;
+  border-radius: 5px;
+}
+
+.PreviewImageImageContainer{
+  width: 85%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.ThumbnailImg{
+  width: 25%;
+}
+
+.ThumbnailImgL{
+  width: 40%;
+}
+
+.DelFile{
+  color: red;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.AttachmentModal {
+  min-width: 90vw !important;
+  width: 90vw !important;
+  height: 90vh;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative !important;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  height: 35px;
+  background-color: rgb(133, 133, 133);
+  display: inline-block;
+  margin-right: 15px;
+  padding: 5px 10px 2px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/*.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: red;
+}*/
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.AttachmentBtnsCont{
+  margin-left: 1%;
+  display: flex;
+}
+
+.UploadBtn:disabled{
+  opacity: 0.5;
+}

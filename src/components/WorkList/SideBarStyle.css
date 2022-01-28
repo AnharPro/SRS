@@ -1,0 +1,118 @@
+.SidebarComp {
+    float: left;
+    width: 19%;
+    height: auto;
+    background-color: #ffffff;
+    color: rgb(20, 16, 241);
+    border: 0.5px solid #aaa;
+    padding: 5px;
+    margin: 0px;
+    margin-right:5px;
+    margin-top:5px;
+    border-radius: 5px;
+    font-size: 14px !important;
+  }
+
+  @media screen and (max-width: 1050px) {
+    .SidebarComp{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+ .SidebarHeader {
+    padding: 5px;
+    border-bottom: 0.5px solid #aaa;
+    color: #000000;
+    font-size: 14px !important;
+  }
+
+.SidebarButton {
+    left: 5px;
+    top: 5px;
+    min-width: 25px;
+    min-height: 25px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0px !important;
+    background-color: blue;
+    border: none !important;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
+.SidebarSelects {
+    margin: 5px;
+    font-size: 14px;
+  }
+
+.react-datepicker {
+    font-size: 1.3rem !important;
+  }
+  
+.react-datepicker__current-month {
+    font-size: 1.5rem !important;
+  }
+  
+.react-datepicker__header {
+    padding-top: 6px !important;
+  }
+  
+.react-datepicker__navigation {
+    top: 13px !important;
+  }
+  
+.react-datepicker__day-name, .react-datepicker__day {
+    margin: 0.5rem !important;
+  }
+
+.react-datepicker__portal{
+    width: 100%;
+}
+
+.react-datepicker-container{
+    background-color: red !important;
+}
+
+.react-datepicker__input-container {
+    width: inherit;
+  }
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+  }
+
+  .myContainer{
+      margin: 5px;
+  }
+
+  .myContainer .react-datepicker-manager,
+  .myContainer .react-datepicker-wrapper,
+  .myContainer .react-datepicker__input-container,
+  .myContainer .react-datepicker__input-container input {
+    width: 100%;
+  }
+
+  .react-datepicker-manager{
+      height: 30px;
+      padding: 5px;
+  }
+
+  .checks{
+    font-size: 12px;
+    color: #000000;
+    margin-right: 5px;
+  }
+
+  .customdatepicker{
+    width: 100%;
+    height: 30px;
+    color: #000000;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #c7c7c7;
+  }

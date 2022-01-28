@@ -1,0 +1,452 @@
+.labDashboardPage{
+    margin-left:15px;
+    margin-right: 10px;
+    margin-top: -50px;
+    padding:10px;
+    border-radius: 5px;
+    min-height: 800px;
+    z-index: 5;
+    position: relative;
+    background-color: #FFFFFF;
+  }
+
+  .labDashboardTopContainer{
+      height: 130px;
+      width: 100%;
+      /*background-color: aqua;*/
+  }
+
+  .TopContainerElements{
+    float: left;
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+.pdgrt{
+  padding-right: 2.5px;
+}
+
+.pdglt{
+  padding-left: 2.5px;
+}
+
+.TopContainerElement1{
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(43, 43, 255);
+}
+
+.Cont1Icon{
+  width: 44px;
+  height: 44px;
+  background-image: url('../../Images/PatientsCont.png');
+  position: absolute;
+  top: 10px;
+  left:15px;
+  border-radius: 15px;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.TopContainerElement2{
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(3, 3, 182);
+}
+
+.TopContainerElement3{
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(7, 209, 148);
+}
+
+.TopContainerElement4{
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46, 179, 6);
+}
+
+.TopContainerElement5{
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(228, 24, 24);
+}
+
+.TopElementsLabels1{
+  font-size: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  width: 60%;
+  right: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.TopElementsLabels2{
+  font-size: 32px;
+  color: #ffffff;
+  position: absolute;
+  top: 45px;
+  width: 60%;
+  right: 30px;
+  font-weight: 600;
+}
+
+.infoIcon{
+  width: 20px;
+  height: 20px;
+  background-image: url('../../Images/info.png');
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 15px;
+  background-color: #25b7d3;
+  border-color: #25b7d3;
+  box-shadow: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.InfoToolTip{
+  z-index: 10000;
+}
+
+.GrayToolTip{
+  background-color: #949494 !important;
+  opacity: 1 !important;
+  z-index: 999999;
+  max-width: 500px;
+}
+
+.GrayToolTip.place-left::after {
+border-left: 8px solid #949494 !important;
+}
+
+.GrayToolTip.place-right::after {
+border-right: 8px solid #949494 !important;
+}
+
+.GrayToolTip.place-top::after {
+border-top: 8px solid #949494 !important;
+}
+
+.GrayToolTip.place-bottom::after {
+border-bottom: 8px solid #949494 !important;
+}
+
+.labContHeightTrans{
+  -webkit-transition: height 1500ms ease-in-out;
+  -moz-transition: height 1500ms ease-in-out;
+  -ms-transition: height 1500ms ease-in-out;
+  -o-transition: height 1500ms ease-in-out;
+  transition: height 1500ms ease-in-out;
+}
+
+.labDashboradSecondLeftContainer{
+  background-color: #F5F5F5;
+  margin-top: 10px;
+  position: relative;
+  padding-right: 1px;
+  float: left;
+  width: 70%;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: ".";    
+    display: block;    
+    height: 0;    
+    overflow: hidden; 
+}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+.labContTopBar{
+  clear: both;
+  height: 35px;
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+  color: #000000;
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 550;
+  z-index: inherit;
+  cursor: pointer !important;
+}
+
+.SecondLeftContainerChart1{
+  clear: both;
+  width: 50%;
+  margin-top: 35px;
+  border: 1px solid #e2e2e2;
+  border-bottom: none;
+  display: inline-block;
+  position: relative;
+  height: 300px;
+}
+
+.SecondLeftContainerChart2{
+  clear: both;
+  float: right;
+  width: 50%;
+  margin-top: 35px;
+  border: 1px solid #e2e2e2;
+  border-bottom: none;
+  border-right: none;
+  position: relative;
+  height: 300px;
+}
+
+.SecondLeftContainerChart3{
+  clear: both;
+  float: left;
+  width: 50%;
+  margin-top: -7px;
+  border: 1px solid #e2e2e2;
+  border-bottom: none;
+  position: relative;
+  height: 300px;
+}
+
+.SecondLeftContainerChart4{
+  float: right;
+  width: 50%;
+  margin-top:-7px;
+  border: 1px solid #e2e2e2;
+  border-bottom: none;
+  border-right: none;
+  position: relative;
+  height: 300px;
+  padding: 0px;
+}
+
+.ChartTitle{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.labDashboradSecondRightContainer{
+  background-color: #F5F5F5;
+  margin-top: 10px;
+  position: relative;
+  padding-left: 1px;
+  float: right;
+  width: 29.5%;
+  border: 1px solid #e2e2e2;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.labProgressBarsContainer{
+  margin-top: 35px;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+}
+
+.labSecContPBsLabels{
+  font-size: 14px;
+  font-weight: 550;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  left: 2%;
+}
+
+.labSecContPBs{
+  width: 75%;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 20px !important;
+  display: inline-block !important;
+  left: 2%;
+}
+
+.labProgbarsPerc{
+  position: relative;
+  top: -20px;
+  left: 10px;
+  font-size: 14px !important;
+}
+
+.labThirdContainer{
+  background-color: #F5F5F5;
+  clear: both;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 10px !important;
+}
+
+.labThirdContainerChartCont{
+  float: left;
+  width: 40%;
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.labThirdLeftContainerChart{
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+.labThirdContainerTableCont{
+  float: right;
+  width: 60%;
+  margin-top: 0px;
+  border-left: 1px solid #e2e2e2;
+  position: relative;
+  height: auto;
+  min-height: 35px;
+  overflow: hidden;
+}
+
+.labTopTenList{
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.labTopTenList li{
+  color: rgb(231, 3, 3);
+}
+
+.labTopTenLITxt{
+  color: #000000;
+  font-size: 14px;
+  width: 80%;
+  display: inline-block;
+}
+
+.labTopTenLINumber{
+  color: #000000;
+  font-size: 14px;
+  width: 20%;
+  display: inline-block;
+}
+
+.TopTenListHead{
+  height: 30px;
+}
+
+.TopTenListItem{
+  height: 25px;
+}
+
+.labFourthContainer{
+  background-color: #F5F5F5;
+  clear: both;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+}
+
+.labFourthContainerTableContainer{
+  float: left;
+  width: 70%;
+  min-height: 35px;
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.labFourthContainerProgBars{
+  float: right;
+  width: 30%;
+  margin-top: 0px;
+  min-height: 35px;
+  border-left: 1px solid #e2e2e2;
+  position: relative;
+  overflow: hidden;
+}
+
+.labFouthContainerProgBarsC{
+  float: right;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 35px;
+  position: relative;
+  height: 365px;
+}
+
+@media screen and (max-width: 1050px) {
+  .labDashboardTopContainer, 
+  .TopContainerElements, 
+  .labDashboradSecondLeftContainer, 
+  .labDashboradSecondRightContainer, 
+  .labThirdContainerChartCont, 
+  .labThirdContainerTableCont,
+  .labThirdLeftContainerChart,
+  .labThirdRightContainerTable,
+  .labFourthContainerTableContainer,
+  .labFourthContainerProgBars {
+      clear: both;
+      float: none;
+    display: block;
+    width: 100%;
+     /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .TopContainerElements{
+      height: 120px;
+      margin-bottom: 10px;
+  }
+
+  .labDashboardTopContainer{
+      height: 650px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .SecondLeftContainerChart1,
+  .SecondLeftContainerChart2,
+  .SecondLeftContainerChart3,
+  .SecondLeftContainerChart4{
+      width: 100%;
+  }
+  .SecondLeftContainerChart2,
+  .SecondLeftContainerChart3,
+  .SecondLeftContainerChart4{
+      margin-top: 0px !important;
+  }
+
+  .labDashboradSecondLeftContainer{
+    height: 1285px !important;
+  }
+
+  .SecondLeftContainerChart1{
+    margin-bottom: 0px !important;
+  }
+
+  .SecondLeftContainerChart2{
+    margin-top: -5px !important;
+  }
+}

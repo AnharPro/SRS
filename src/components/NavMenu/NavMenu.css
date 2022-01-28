@@ -1,0 +1,225 @@
+.labNavBar{
+    /*background-color: rgb(78, 78, 255);*/
+    position: relative !important;
+    background-color: #3BAFDA !important;
+    padding-top: 10px 0px 10px 0px;
+    margin: 0px;
+    min-height: 110px !important;
+    display : flex;
+    justify-content: space-between;
+  }
+
+  .labSticky{
+    position: relative !important;
+    background-color: #3BAFDA !important;
+    padding-top: 55px;
+    height: 15px !important;
+    display : flex;
+    width: 100%;
+    justify-content : space-between;
+    z-index: 99 !important;
+  }
+  
+  .labSticky1{
+    position: fixed !important;
+    top: 0 !important;
+    background-color: #3BAFDA !important;
+    padding-top: 55px;
+    height: 15px !important;
+    display : flex;
+    width: 100%;
+    justify-content : space-between;
+    z-index: 99 !important;
+  }
+
+  .labNavbarToggler{
+    margin: auto;
+    color: #ffffff !important;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 45px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    border: 2px solid #f1f1f1 !important;
+  }
+
+  .labNavbartoggler:focus{
+    box-shadow: none;
+    outline: none;
+  }
+
+  .labNavbarTogglerOpen{
+    margin: auto;
+    color: #ffffff !important;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    border: 2px solid #f1f1f1 !important;
+  }
+
+  .labNavbarTogglerS{
+    color: #ffffff !important;
+    width: 40px;
+    height: 40px;
+    margin-top: -45px;
+    margin-bottom: 45px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    border: 2px solid #f1f1f1 !important;
+  }
+
+  .labNavbarTogglerOpenS{
+    margin: auto;
+    color: #ffffff !important;
+    width: 40px;
+    height: 40px;
+    margin-top: -42px !important;
+    margin-bottom: 45px !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    border: 2px solid #f1f1f1 !important;
+  }
+
+
+  .labNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .collapseCls{
+    height: 1000px !important;
+    z-index: 9999999 !important;
+  }
+
+  .labNavS{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  
+  .labNavSO{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3BAFDA !important;
+    margin-top: -40px !important;
+    border-radius: 5px;
+  }
+  
+  .labNav::after {
+    content: '';
+  }
+  
+  .labNav::before {
+    content: '';
+  }
+
+
+  .labNavbarLinks{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    text-align: center;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    font-size: 22px;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 0px;
+    margin-top: -40px;
+    height: 35px;
+  }
+
+  .labNavbarLinksL{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    font-size: 22px;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 0px;
+    margin-top: -40px;
+    margin-bottom: 0px !important;
+  }
+
+  .labNavbarLinks:hover, .labNavbarLinksL:hover{
+    text-decoration: none;
+    background-color: rgb(4, 82, 134) !important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .labNavbarLinksO{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    text-align: center;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    font-size: 22px;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 35px;
+  }
+
+  .labNavbarLinksLO{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    text-align: center;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    font-size: 22px;
+    font-weight: 450;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+  }
+
+  .labNavbarLinksO:hover, .labNavbarLinksLO:hover{
+    text-decoration: none;
+    background-color: rgb(4, 82, 134) !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .labNavbarLinksLO:hover{
+    text-decoration: none;
+    background-color: rgb(4, 134, 43) !important;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  @media screen and (max-width: 800px) {
+    .labNavbarLinks {
+      margin-bottom: 0px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    .labNavbarLinksL{
+      margin-top: 0px !important;
+      margin-bottom: 15px !important;
+    }
+  }
+
+  .inactive {
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+  
+  .active {
+    color: #fff !important;
+    text-decoration: none !important;
+    background-color: rgb(4, 82, 134) !important;
+  }

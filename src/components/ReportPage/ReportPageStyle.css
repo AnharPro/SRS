@@ -1,0 +1,220 @@
+.reportsPage{
+    position: relative;
+    margin-left:15px;
+    margin-right: 10px;
+    margin-top: -50px;
+    padding-bottom: 15px;
+    padding-top:5px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    min-height: 350px;
+    z-index: 5;
+    float: none;
+    font-size: 14px !important;
+  }
+
+  .RepbreadCrumb{
+    font-size: 14px;
+    color: #9c9a9a;
+  }
+
+  .RepbreadCrumblink:hover{
+    color: #5252f8;
+    text-decoration: none;
+  }
+
+  .ReporstsCont{
+    width: 100%;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.RepListCont{
+  float: left;
+  min-height: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-right: 1%;
+  width: 15%;
+}
+
+.RepIFContainer{
+  float: left;
+  min-height: 500px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-right: 1%;
+  width: 63%;
+}
+
+.RepFormContainer{
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-right: 1%;
+  padding: 5px;
+  width: 20%;
+}
+
+.ReportsFormLabels{
+  position: relative;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+.first{
+  margin-top: 20px;
+}
+
+.mandatory{
+  color: red;
+  margin-left: 25px;
+}
+
+.ReportsFormTxtBox{
+  width: 98%;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid #e2e2e2;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.ReportsFormTxtBoxOutlined{
+  width: 98%;
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid #e2e2e2;
+  padding-left: 5px;
+  margin-left: 5px;
+  box-shadow: 0.5px 0px 4px 2px rgba(255, 0, 0, 0.6), 0.5px 2px 2px 0.5px rgba(255, 0, 0, 0.6);
+}
+
+
+.Cat1Reports{
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  min-height: 30px; 
+  padding: 5px 0px 0px 0px;
+  margin: 0px 0px 5px 0px;
+  overflow: hidden;
+}
+
+.Cat1ReportsHead{
+  width: 100%;
+  height: 40px;
+  padding: 5px 0px 0px 0px;
+  font-weight: 550;
+  font-size: 15px;
+  text-align: left;
+  color: #000000;
+  cursor: pointer;
+}
+
+.Cat1ReportsHeadH{
+  width: 100%;
+  height: 40px;
+  padding: 10px 0px 0px 0px;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 15px;
+  text-align: left;
+  color: #000000;
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+
+.reportName{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 13px;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 450;
+}
+
+.reportName:hover{
+  background-color: #e2e2e2;
+}
+
+.chosen{
+  background-color: #e2e2e2;
+}
+
+.showReportBtn{
+  height: 30px;
+  min-width: 70px;
+  float: right;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 540;
+  background-color: #0202ff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.replistfa{
+  float: left;
+  width: 15px;
+  color: #3bafda;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.replistRepName{
+  float: left;
+}
+
+@media screen and (max-width: 850px){
+  .ReporstsCont{
+    display: flex;
+    flex-direction: column;
+  }
+  .RepListCont,
+  .RepIFContainer,
+  .RepFormContainer{
+    position: relative;
+    display: block;
+    width: 100% !important;
+  }
+}
+
+.reportscustomdatepicker{
+  width: 98%;
+  height: 40px;
+  color: #000000;
+  padding-left: 10px;
+  padding-top: 8px;
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+  margin-left: 5px;
+}
+
+.myClassname{
+  border: none;
+}
+
+.Insts{
+  width: 98%;
+  padding: 25px;
+  font-size: 19px;
+}
